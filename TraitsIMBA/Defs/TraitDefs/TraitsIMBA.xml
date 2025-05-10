@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<TraitDef>
+		<defName>IMBAwork</defName>
+		<commonality>0.00</commonality>
+		<degreeDatas>
+			<li>
+				<label>IMBAworker</label>
+				<description>[PAWN_nameDef] can work at insane speed. </description>
+				<statOffsets>
+					<WorkSpeedGlobal>10.00</WorkSpeedGlobal>
+					<MiningSpeed>10.00</MiningSpeed>
+					<GeneralLaborSpeed>10.00</GeneralLaborSpeed>
+					<ShootingAccuracyPawn>20</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.8</AimingDelayFactor>
+					<MoveSpeed>2</MoveSpeed>
+					<RestRateMultiplier>0.50</RestRateMultiplier>
+				</statOffsets>
+				<skillGains>
+					<Shooting>30</Shooting>
+					<Melee>30</Melee>
+					<Social>30</Social>
+					<Animals>30</Animals>
+					<Medicine>30</Medicine>
+					<Cooking>30</Cooking>
+					<Construction>30</Construction>
+					<Plants>30</Plants>
+					<Mining>30</Mining>
+					<Artistic>30</Artistic>
+					<Crafting>30</Crafting>
+					<Intellectual>30</Intellectual>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>ShootingAccuracy</li>
+			<li>SpeedOffset</li>
+			<li>QuickSleeper</li>
+		</conflictingTraits>
+	</TraitDef>
+</Defs>

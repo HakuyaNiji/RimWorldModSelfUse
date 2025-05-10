@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>HakuyaNiji.TraitsIMBA</packageId>
+	<name>超模特性</name>
+	<description>添加若干种超模特性</description>
+	<author>HakuyaNiji</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+</ModMetaData>
