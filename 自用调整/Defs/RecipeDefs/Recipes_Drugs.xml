@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Defs>
+	<!--=================================== Medicine ==========================================-->
+	<RecipeDef>
+		<defName>Make5Medicine</defName>
+		<label>Make medicine x5</label>
+		<description>Make Medicines.</description>
+		<jobString>Making Medicines.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workAmount>3400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<products>
+			<MedicineIndustrial>5</MedicineIndustrial>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+				<li>Neutroamine</li>
+				<li>Cloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Intellectual>4</Intellectual>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>MedicineProduction</researchPrerequisite>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>Make20Medicine</defName>
+		<label>Make medicine x20</label>
+		<description>Make Medicines.</description>
+		<jobString>Making Medicines.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workAmount>10200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+		<products>
+			<MedicineIndustrial>20</MedicineIndustrial>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+				<li>Neutroamine</li>
+				<li>Cloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Intellectual>4</Intellectual>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>MedicineProduction</researchPrerequisite>
+	</RecipeDef>
+	<!--=================================== Penoxycyline ==========================================-->
+	<RecipeDef>
+		<defName>Make5Penoxycyline</defName>
+		<label>Make penoxycyline x5</label>
+		<description>Make penoxycylines.</description>
+		<jobString>Making penoxycylines.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workAmount>2900</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<Penoxycyline>5</Penoxycyline>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Intellectual>2</Intellectual>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>Make20Penoxycyline</defName>
+		<label>Make penoxycyline x20</label>
+		<description>Make penoxycylines.</description>
+		<jobString>Making penoxycylines.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workAmount>8700</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<Penoxycyline>20</Penoxycyline>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Intellectual>2</Intellectual>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+	</RecipeDef>
+	<!--=================================== Flake ==========================================-->
+	<RecipeDef>
+		<defName>Make20Flake</defName>
+		<label>Make flake x20</label>
+		<description>Make flakes.</description>
+		<jobString>Making flakes.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workAmount>3600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychoidLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>80</count>
+			</li>
+		</ingredients>
+		<products>
+			<Flake>20</Flake>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PsychoidLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>PsychiteRefining</researchPrerequisite>
+	</RecipeDef>
+	<!--=================================== Yayo ==========================================-->
+	<RecipeDef>
+		<defName>Make20Yayo</defName>
+		<label>Make yayo x20</label>
+		<description>Make yayos.</description>
+		<jobString>Making yayos.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workAmount>5100</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychoidLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>160</count>
+			</li>
+		</ingredients>
+		<products>
+			<Yayo>20</Yayo>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PsychoidLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>PsychiteRefining</researchPrerequisite>
+	</RecipeDef>
+	<!--=================================== Wake-up ==========================================-->
+	<RecipeDef>
+		<defName>Make20WakeUp</defName>
+		<label>Make wake-up x20</label>
+		<description>Make wake-ups.</description>
+		<jobString>Making wake-ups.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workAmount>14000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<WakeUp>20</WakeUp>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>WakeUpProduction</researchPrerequisite>
+	</RecipeDef>
+	<!--=================================== Go-juice ==========================================-->
+	<RecipeDef>
+		<defName>Make20GoJuice</defName>
+		<label>Make go-juice x20</label>
+		<description>Make go-juices.</description>
+		<jobString>Making go-juices.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workAmount>8700</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Yayo</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<products>
+			<GoJuice>20</GoJuice>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+				<li>Yayo</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>GoJuiceProduction</researchPrerequisite>
+	</RecipeDef>
+	<!--=================================== Smokeleaf ==========================================-->
+	<RecipeDef>
+		<defName>Make20SmokeleafJoint</defName>
+		<label>Make smokeleaf joint x20</label>
+		<description>Make smokeleaf joints.</description>
+		<jobString>Making smokeleaf joints.</jobString>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<workAmount>5800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SmokeleafLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>80</count>
+			</li>
+		</ingredients>
+		<products>
+			<SmokeleafJoint>20</SmokeleafJoint>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SmokeleafLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+	<!--=================================== PsychiteTea ==========================================-->
+	<RecipeDef>
+		<defName>Make20PsychiteTea</defName>
+		<label>Make psychite tea x20</label>
+		<description>Make psychite tea.</description>
+		<jobString>Making psychite tea.</jobString>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<workAmount>6000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychoidLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>80</count>
+			</li>
+		</ingredients>
+		<products>
+			<PsychiteTea>20</PsychiteTea>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PsychoidLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<researchPrerequisite>PsychoidBrewing</researchPrerequisite>
+	</RecipeDef>
+</Defs>
