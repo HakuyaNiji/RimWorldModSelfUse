@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: small drug lab -->
+  <Omni_DrugLabSmol.label>小型药物实验台</Omni_DrugLabSmol.label>
+  <!-- EN: A small work bench equipped with containers, heaters, and measurement devices for producing various drugs. -->
+  <Omni_DrugLabSmol.description>一个配备有各种烧瓶、量杯和加热设备的小型化学工作台，用于制作各种医药和成瘾品。</Omni_DrugLabSmol.description>
+  
+  <!-- EN: small electric smelter -->
+  <Omni_ElectricSmelterSmol.label>小型电熔炼器</Omni_ElectricSmelterSmol.label>
+  <!-- EN: Extracts usable metal from slag chunks and other mixed metal items. Consumes a lot of power. -->
+  <Omni_ElectricSmelterSmol.description>从钢渣块和其他含有金属的物品中提炼出有用的金属。消耗大量电力。</Omni_ElectricSmelterSmol.description>
+  
+  <!-- EN: small electric smithy -->
+  <Omni_ElectricSmithySmol.label>小型锻造台（电力）</Omni_ElectricSmithySmol.label>
+  <!-- EN: A small, electric-powered station for smithing non-mechanical weapons and tools. -->
+  <Omni_ElectricSmithySmol.description>制作非机械武器和工具的小型电力锻造台。</Omni_ElectricSmithySmol.description>
+  
+  <!-- EN: small electric stove -->
+  <Omni_ElectricStoveSmol.label>小型炉灶（电力）</Omni_ElectricStoveSmol.label>
+  <!-- EN: A small electrically-powered stove with an attached countertop for preparing meals. -->
+  <Omni_ElectricStoveSmol.description>用于烹饪食物的小型电力炉灶。</Omni_ElectricStoveSmol.description>
+  
+  <!-- EN: small electric tailor bench -->
+  <Omni_ElectricTailoringBenchSmol.label>小型裁缝台（电力）</Omni_ElectricTailoringBenchSmol.label>
+  <!-- EN: A small workbench with a sewing machine for rapid tailoring of clothes. Can work without electricity at 50% of normal speed. -->
+  <Omni_ElectricTailoringBenchSmol.description>带有缝纫机的小型工作台，用于快速缝制衣物。在没电时的工作速度只有平时的50%。</Omni_ElectricTailoringBenchSmol.description>
+  
+  <!-- EN: hi-tech research bench -->
+  <Omni_HiTechResearchBenchSmol.label>小型高级研究台</Omni_HiTechResearchBenchSmol.label>
+  <!-- EN: A small high-tech bench with computers and electronic measurement equipment. Allows more rapid research, and unlocks advanced research projects. -->
+  <Omni_HiTechResearchBenchSmol.description>一种配有电脑和电子测量设备的小型高科技工作台。高科技工具加快了研究速度，并且能够解锁更先进的研究项目。</Omni_HiTechResearchBenchSmol.description>
+  
+  <!-- EN: small nutrient paste dispenser -->
+  <Omni_NutrientPasteDispenserSmol.label>小型营养膏合成机</Omni_NutrientPasteDispenserSmol.label>
+  <!-- EN: A compact machine that synthesizes edible nutrient paste from organic feedstocks placed in adjacent hoppers. It consumes less ingredients and time than any other meal production method - but nobody likes eating nutrient paste. Accepts raw food, but not rough plant matter like hay. -->
+  <Omni_NutrientPasteDispenserSmol.description>将有机原料合成为营养膏。比其他的食物生产方法消耗更少的原料和时间，但没人喜欢吃营养膏。可以处理生食，但无法处理某些的植物材料，比如干草。只有当殖民者缺少食物时，才会从营养膏合成机中拿取营养膏。</Omni_NutrientPasteDispenserSmol.description>
+  
+  <!-- EN: small simple research bench -->
+  <Omni_SimpleResearchBenchSmol.label>小型基础研究台</Omni_SimpleResearchBenchSmol.label>
+  <!-- EN: A small, simple bench with writing implements and simple measurement devices. Researchers work here to discover new things. -->
+  <Omni_SimpleResearchBenchSmol.description>一种配有书写工具和基础测量设备的小型简易工作台。研究员在这里探索新事物。</Omni_SimpleResearchBenchSmol.description>
+  
+  <!-- EN: small butcher table -->
+  <Omni_TableButcherSmol.label>小型屠宰台</Omni_TableButcherSmol.label>
+  <!-- EN: A small table for butchering dead creatures into pieces of raw meat. Rotting or dessicated corpses cannot be butchered. -->
+  <Omni_TableButcherSmol.description>一个用于屠宰尸体的小型工作台。腐烂或风化的尸体不能被屠宰。</Omni_TableButcherSmol.description>
+  
+  <!-- EN: small machining table -->
+  <Omni_TableMachiningSmol.label>小型机械加工台</Omni_TableMachiningSmol.label>
+  <!-- EN: A small work station for assembling machinery like guns and ammunition, or breaking down dead mechanoids. -->
+  <Omni_TableMachiningSmol.description>用于组装和拆解机械装置的小型工作台，比如枪械或死亡的机械体。</Omni_TableMachiningSmol.description>
+  
+  <!-- EN: small art bench -->
+  <Omni_TableSculptingSmol.label>小型艺创台</Omni_TableSculptingSmol.label>
+  <!-- EN: A small workbench equipped for creating art. -->
+  <Omni_TableSculptingSmol.description>一个配备有艺术品制作工具的小型工作台。</Omni_TableSculptingSmol.description>
+  
+</LanguageData>

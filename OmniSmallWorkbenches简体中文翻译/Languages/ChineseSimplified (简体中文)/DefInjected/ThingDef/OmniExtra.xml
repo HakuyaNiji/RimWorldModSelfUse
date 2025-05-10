@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: small fabrication bench -->
+  <Omni_FabricationBenchSmol.label>小型精密装配台</Omni_FabricationBenchSmol.label>
+  <!-- EN: A workbench equipped with advanced tools for producing technological marvels from simpler materials. -->
+  <Omni_FabricationBenchSmol.description>一个配备了先进工具的小型工作台，可以把简单的素材制作成令人惊奇的先进设备。</Omni_FabricationBenchSmol.description>
+  
+</LanguageData>

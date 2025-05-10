@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>Omni's Small Workbenches简体中文翻译</name>
+	<author>HakuyaNiji</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Omni.SmallWorkbenches</packageId>
+			<displayName>Omni's Small Workbenches</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3454070559</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Omni.SmallWorkbenches</li>
+	</loadAfter>
+	<packageId>HakuyaNiji.Omni.SmallWorkbenches.SimplifiedChinese</packageId>
+	<description>Omni's Small Workbenches简体中文翻译。</description>
+</ModMetaData>
