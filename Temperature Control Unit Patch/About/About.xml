@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>HakuyaNiji.TemperatureControlUnitPatch</packageId>
+	<name>Temperature Control Unit 自用补丁</name>
+	<description>温控单元(Temperature Control Unit)调整：\n1. 热交换效率10倍</description>
+	<author>HakuyaNiji</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Murmur.TCU</packageId>
+			<displayName>Temperature Control Unit</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2203542817</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Murmur.TCU</li>
+	</loadAfter>
+</ModMetaData>

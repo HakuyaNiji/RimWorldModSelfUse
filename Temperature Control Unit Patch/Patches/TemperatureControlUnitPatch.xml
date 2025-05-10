@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Temperature Control Unit</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MUR_TCU"]/comps/li[@Class = "CompProperties_TempControl"]/energyPerSecond</xpath>
+					<value>
+						<energyPerSecond>-210</energyPerSecond>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MUR_TCU_Wide"]/comps/li[@Class = "CompProperties_TempControl"]/energyPerSecond</xpath>
+					<value>
+						<energyPerSecond>-630</energyPerSecond>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MUR_TCU_Long"]/comps/li[@Class = "CompProperties_TempControl"]/energyPerSecond</xpath>
+					<value>
+						<energyPerSecond>-210</energyPerSecond>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MUR_TCU_TwoByTwo"]/comps/li[@Class = "CompProperties_TempControl"]/energyPerSecond</xpath>
+					<value>
+						<energyPerSecond>-630</energyPerSecond>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
