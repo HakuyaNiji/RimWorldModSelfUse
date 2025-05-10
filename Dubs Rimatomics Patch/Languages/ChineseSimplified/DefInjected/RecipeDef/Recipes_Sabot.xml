@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<Make10RailgunSabot.label>制作磁轨炮弹(高爆) x10</Make10RailgunSabot.label>
+	<Make10RailgunSabot.description>制作磁轨炮弹(高爆)。</Make10RailgunSabot.description>
+	<Make10RailgunSabot.jobString>正在制作磁轨炮弹(高爆)。</Make10RailgunSabot.jobString>
+	<Make10RailgunSabotDU.label>制作磁轨炮弹(贫铀) x10</Make10RailgunSabotDU.label>
+	<Make10RailgunSabotDU.description>制作磁轨炮弹(贫铀)。</Make10RailgunSabotDU.description>
+	<Make10RailgunSabotDU.jobString>正在制作磁轨炮弹(贫铀)。</Make10RailgunSabotDU.jobString>
+</LanguageData>

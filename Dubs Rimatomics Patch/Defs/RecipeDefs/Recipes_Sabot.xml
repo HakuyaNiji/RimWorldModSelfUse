@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>Make10RailgunSabot</defName>
+		<label>Make 10x RailgunSabot</label>
+		<description>Make 10x RailgunSabot</description>
+		<jobString>Making 10x RailgunSabot.</jobString>
+		<workSkill>Crafting</workSkill>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<effectWorking>ConstructMetal</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>7200</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<RailgunSabot>10</RailgunSabot>
+		</products>
+		<recipeUsers>
+			<li>TableRimatomicsMachining</li>
+		</recipeUsers>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>Make10RailgunSabotDU</defName>
+		<label>Make 10x DU Sabot Round</label>
+		<description>Make 10x DU Sabot Round</description>
+		<jobString>Making 10x DU Sabot Round.</jobString>
+		<workSkill>Crafting</workSkill>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<effectWorking>ConstructMetal</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>7200</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DepletedUraniumPellets</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DepletedUraniumPellets</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<RailgunSabotDU>10</RailgunSabotDU>
+		</products>
+		<recipeUsers>
+			<li>TableRimatomicsMachining</li>
+		</recipeUsers>
+	</RecipeDef>
+</Defs>

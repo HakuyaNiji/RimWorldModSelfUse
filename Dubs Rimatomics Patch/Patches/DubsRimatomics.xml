@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dubs Rimatomics</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PPC"]/comps/li[@Class = "CompProperties_Battery"]/storedEnergyMax</xpath>
+					<value>
+						<storedEnergyMax>6000000</storedEnergyMax>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="PPC"]/comps/li[@Class = "CompProperties_Battery"]/efficiency</xpath>
+					<value>
+						<efficiency>10000</efficiency>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Turbine"]/TurbineCapacityWatts</xpath>
+					<value>
+						<TurbineCapacityWatts>1000000</TurbineCapacityWatts>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="BigTurbine"]/TurbineCapacityWatts</xpath>
+					<value>
+						<TurbineCapacityWatts>10000000</TurbineCapacityWatts>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Railgun_Cannon"]/verbs/li/requireLineOfSight</xpath>
+					<value>
+						<requireLineOfSight>false</requireLineOfSight>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Railgun_Cannon"]/EnergyWep/cooldownForShot</xpath>
+					<value>
+						<cooldownForShot>14</cooldownForShot>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="TableRimatomicsMachining"]/graphicData/drawSize</xpath>
+					<value>
+						<drawSize>(2.4,1.5)</drawSize>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="TableRimatomicsMachining"]/size</xpath>
+					<value>
+						<size>(2,1)</size>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>HakuyaNiji.DubsRimatomicsPatch</packageId>
+	<name>Dubs_Rimatomics_自用补丁</name>
+	<description>边缘核能调整：\n1. 脉冲电池容量6000kw，充电效率1000000%\n2. 涡轮机最大发电量 x10\n3. 添加磁轨炮弹批量制作配方\n4. 磁轨炮无需射界，炮击间隔14s\n5. 加工台大小调整为3x1</description>
+	<author>HakuyaNiji</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Dubwise.Rimatomics</packageId>
+			<displayName>Dubs Rimatomics</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1127530465</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Dubwise.Rimatomics</li>
+	</loadAfter>
+</ModMetaData>
