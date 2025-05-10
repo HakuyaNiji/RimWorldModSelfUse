@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>MendAndRecycle(1.5 Unofficial)简体中文翻译</name>
+	<author>HakuyaNiji</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>dd.unofficial.notfood.MendAndRecycle</packageId>
+			<displayName>MendAndRecycle</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3226161877</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>dd.unofficial.notfood.MendAndRecycle</li>
+	</loadAfter>
+	<packageId>HakuyaNiji.MendandRecycle.Unofficial.SimplifiedChinese</packageId>
+	<description>Mend and Recycle简体中文翻译。</description>
+</ModMetaData>

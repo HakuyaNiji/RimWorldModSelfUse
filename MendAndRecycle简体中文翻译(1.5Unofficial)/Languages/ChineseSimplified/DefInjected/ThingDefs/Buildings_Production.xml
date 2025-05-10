@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <TableMending.label>修复工作台</TableMending.label>
+  <TableMending.description>一个配备了修补和修理损坏物品所需的所有工具的工作台。需要电力并消耗修理套件（可以在裁缝台上制作）。</TableMending.description>
+</LanguageData>

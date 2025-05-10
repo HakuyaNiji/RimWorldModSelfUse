@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MendRecycle>修补和回收</MendRecycle>
+	<!-- Settings -->
+	<MendRecycle.RemovesDeadman>移除死者标签</MendRecycle.RemovesDeadman>
+	<MendRecycle.RemovesDeadmanTooltip>修复工作台修复死者衣物是否能够去除死者标签？</MendRecycle.RemovesDeadmanTooltip>
+	<MendRecycle.UseTableMending>使用修复工作台</MendRecycle.UseTableMending>
+	<MendRecycle.UseTableMendingTooltip>是否使用修复工作台？ (需要重启游戏)</MendRecycle.UseTableMendingTooltip>
+	<MendRecycle.RequiresFuel>需要燃料</MendRecycle.RequiresFuel>
+	<MendRecycle.RequiresFuelTooltip>修复工作台需要燃料吗？ （需要重启游戏）</MendRecycle.RequiresFuelTooltip>
+	<MendRecycle.RequiresPower>需要电力</MendRecycle.RequiresPower>
+	<MendRecycle.RequiresPowerTooltip>修复工作台需要电力吗？ （需要重启游戏）</MendRecycle.RequiresPowerTooltip>
+	<MendRecycle.MaxHPCost>最大生命值百分比</MendRecycle.MaxHPCost>
+	<MendRecycle.FailChances>各个时代物品的修复失败概率</MendRecycle.FailChances>
+</LanguageData>
