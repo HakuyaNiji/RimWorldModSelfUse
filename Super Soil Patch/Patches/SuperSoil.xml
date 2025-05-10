@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Super Soil</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/TerrainDef[defName="SoilSuper"]/costList/Steel</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/TerrainDef[defName="SoilMega"]/costList/ComponentIndustrial</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/TerrainDef[defName="SoilMega"]/costList/Yayo</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/TerrainDef[defName="SoilHyper"]/costList/Plasteel</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/TerrainDef[defName="SoilHyper"]/costList/Luciferium</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/TerrainDef[defName="UltraSoil"]/costList/Uranium</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/TerrainDef[defName="UltraSoil"]/costList/Leather_Thrumbo</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/TerrainDef[defName="UltraSoil"]/costList/Heart</xpath>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

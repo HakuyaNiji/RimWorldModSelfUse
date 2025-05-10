@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>HakuyaNiji.SuperSoilPatch</packageId>
+	<name>Super Soil 自用补丁</name>
+	<author>HakuyaNiji</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>auxiliusm.supersoil</packageId>
+			<displayName>Super Soil</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=823626435</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>auxiliusm.supersoil</li>
+	</loadAfter>
+	<description>添加四种肥沃度突破天际的可建造土壤。可以与Tilled Soil一起使用。这个补丁还适当下调了建造成本，无需调整的可删除Patch文件夹。</description>
+</ModMetaData>
