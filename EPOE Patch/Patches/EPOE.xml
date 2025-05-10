@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Expanded Prosthetics and Organ Engineering - Forked</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="AIChip"]/stages/li/capMods/li[2]</xpath>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="EPIA_TacticalBionicEye"]/addedPartProps/partEfficiency</xpath>
+					<value>
+						<partEfficiency>1.35</partEfficiency>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

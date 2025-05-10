@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>HakuyaNiji.EPOEPatch</packageId>
+	<name>EPOE 自用补丁</name>
+	<description>EPOE调整：\n1. AI芯片取消意识最高上限100%，现在AI芯片意识能够突破100%\n2. 战术仿生眼部件效率提升至135%</description>
+	<author>HakuyaNiji</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>vat.epoeforked</packageId>
+			<displayName>Expanded Prosthetics and Organ Engineering - Forked</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1949064302</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>vat.epoeforked</li>
+	</loadAfter>
+</ModMetaData>
