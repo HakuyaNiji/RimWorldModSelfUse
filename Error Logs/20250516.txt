@@ -1,0 +1,21 @@
+Exception ticking hediff (MechCharge_II 仿生大脑 ticksSinceCreation=399152) for pawn Mech_Lifter291873. Removing hediff... Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 755F3ABE]
+ at UniversalMechCharger.HediffComp_Charger.<ProduceWaste>b__16_0 (Verse.Building x) [0x0000b] in <f56dd9437782423bb011ccaccff08130>:0 
+ at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+ at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+ at UniversalMechCharger.HediffComp_Charger.ProduceWaste (System.Single& wasteProduced) [0x00052] in <f56dd9437782423bb011ccaccff08130>:0 
+ at UniversalMechCharger.HediffComp_Charger.TryProduceWaste () [0x0006d] in <f56dd9437782423bb011ccaccff08130>:0 
+ at UniversalMechCharger.HediffComp_Charger.CompPostTick (System.Single& severityAdjustment) [0x0001b] in <f56dd9437782423bb011ccaccff08130>:0 
+     - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.HediffComp_Patch+HediffComp_GenHashInterval_Replacement:Transpiler(IEnumerable`1 instructions)
+ at Verse.HediffWithComps.PostTick () [0x00024] in <630e2863bc9a4a3493f2eff01e3a9556>:0 
+ at Verse.Pawn_HealthTracker.HealthTick () [0x00068] in <630e2863bc9a4a3493f2eff01e3a9556>:0 
+     - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_HealthTracker_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn_HealthTracker.HealthTick_Patch0 (Verse.Pawn_HealthTracker)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn.Tick_Patch1 (Verse.Pawn)
+Verse.TickList:Tick ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch3 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch2 (Verse.Game)
+Verse.Root_Play:Update ()
