@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "MoisturePump"]/comps/li[@Class = "CompProperties_TerrainPumpDry"]/daysToRadius</xpath>
+		<value>
+			<daysToRadius>1</daysToRadius>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "TableSculpting"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "TableSculpting"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "TableButcher"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "TableButcher"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "HandTailoringBench"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "HandTailoringBench"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "ElectricTailoringBench"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "ElectricTailoringBench"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "FueledSmithy"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "FueledSmithy"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "ElectricSmithy"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "ElectricSmithy"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "TableMachining"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "TableMachining"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "ElectricStove"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "ElectricStove"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "FueledStove"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "FueledStove"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "TableStonecutter"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "TableStonecutter"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Brewery"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Brewery"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "DrugLab"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "DrugLab"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "ElectricSmelter"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.1,1.5)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "ElectricSmelter"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "BiofuelRefinery"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1,1)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "BiofuelRefinery"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "FabricationBench"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.4,2)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "FabricationBench"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "SimpleResearchBench"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.6,2)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "SimpleResearchBench"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "HiTechResearchBench"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1.4,2)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "HiTechResearchBench"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "ElectricCrematorium"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1,1)</drawSize>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "ElectricCrematorium"]/size</xpath>
+		<value>
+			<size>(1,1)</size>
+		</value>
+	</Operation>
+</Patch>

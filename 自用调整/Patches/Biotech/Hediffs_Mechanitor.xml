@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName = "ControlSublinkImplant"]/stages/li[minSeverity = 1]/statOffsets/WorkSpeedGlobalOffsetMech</xpath>
+		<value>
+			<WorkSpeedGlobalOffsetMech>0.5</WorkSpeedGlobalOffsetMech>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName = "ControlSublinkImplant"]/stages/li[minSeverity = 2]/statOffsets/WorkSpeedGlobalOffsetMech</xpath>
+		<value>
+			<WorkSpeedGlobalOffsetMech>1</WorkSpeedGlobalOffsetMech>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName = "ControlSublinkImplant"]/stages/li[minSeverity = 3]/statOffsets/WorkSpeedGlobalOffsetMech</xpath>
+		<value>
+			<WorkSpeedGlobalOffsetMech>1.5</WorkSpeedGlobalOffsetMech>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName = "ControlSublinkImplant"]/stages/li[minSeverity = 4]/statOffsets/WorkSpeedGlobalOffsetMech</xpath>
+		<value>
+			<WorkSpeedGlobalOffsetMech>2.5</WorkSpeedGlobalOffsetMech>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName = "ControlSublinkImplant"]/stages/li[minSeverity = 5]/statOffsets/WorkSpeedGlobalOffsetMech</xpath>
+		<value>
+			<WorkSpeedGlobalOffsetMech>3.5</WorkSpeedGlobalOffsetMech>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName = "ControlSublinkImplant"]/stages/li[minSeverity = 6]/statOffsets/WorkSpeedGlobalOffsetMech</xpath>
+		<value>
+			<WorkSpeedGlobalOffsetMech>4.5</WorkSpeedGlobalOffsetMech>
+		</value>
+	</Operation>
+</Patch>

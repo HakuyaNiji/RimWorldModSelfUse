@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Pulsefire Turret (Continued)</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "PulsefireTurretGun"]/costStuffCount</xpath>
+					<value>
+						<costStuffCount>25</costStuffCount>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "PulsefireTurretGun"]/costList/Steel</xpath>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "PulsefireTurretGun"]/costList/ComponentIndustrial</xpath>
+					<value>
+						<ComponentIndustrial>2</ComponentIndustrial>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "PulsefireTurretGun"]/building/turretBurstCooldownTime</xpath>
+					<value>
+						<turretBurstCooldownTime>2.0</turretBurstCooldownTime>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "Bullet_PulsefireTurret"]/projectile/damageAmountBase</xpath>
+					<value>
+						<damageAmountBase>45</damageAmountBase>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "Bullet_PulsefireTurret"]/projectile/armorPenetrationBase</xpath>
+					<value>
+						<damageAmountBase>0.6</damageAmountBase>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "Bullet_PulsefireTurretEnhanced"]/projectile/damageAmountBase</xpath>
+					<value>
+						<damageAmountBase>90</damageAmountBase>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "Bullet_PulsefireTurretEnhanced"]/projectile/armorPenetrationBase</xpath>
+					<value>
+						<damageAmountBase>1.2</damageAmountBase>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "PulsefireTwinCannon"]/costStuffCount</xpath>
+					<value>
+						<costStuffCount>25</costStuffCount>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "PulsefireTwinCannon"]/costList/Steel</xpath>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "PulsefireTwinCannon"]/costList/ComponentIndustrial</xpath>
+					<value>
+						<ComponentIndustrial>2</ComponentIndustrial>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "PulsefireTwinCannon"]/building/turretBurstCooldownTime</xpath>
+					<value>
+						<turretBurstCooldownTime>2.0</turretBurstCooldownTime>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "Bullet_PulsefireTwinCannon"]/projectile/damageAmountBase</xpath>
+					<value>
+						<damageAmountBase>25</damageAmountBase>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "Bullet_PulsefireTwinCannon"]/projectile/armorPenetrationBase</xpath>
+					<value>
+						<damageAmountBase>0.3</damageAmountBase>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "Bullet_PulsefireTwinCannonEnhanced"]/projectile/damageAmountBase</xpath>
+					<value>
+						<damageAmountBase>45</damageAmountBase>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "Bullet_PulsefireTwinCannonEnhanced"]/projectile/armorPenetrationBase</xpath>
+					<value>
+						<damageAmountBase>0.5</damageAmountBase>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove" MayRequire="Mlie.XNDTurretExtensions">
+					<xpath>/Defs/ThingDef[defName = "PulsefireTurretGun"]/comps/li[@Class="TurretExtensions.CompProperties_Upgradable"]/costList/Silver</xpath>
+				</li>
+				<li Class="PatchOperationRemove" MayRequire="Mlie.XNDTurretExtensions">
+					<xpath>/Defs/ThingDef[defName = "PulsefireTurretGun"]/comps/li[@Class="TurretExtensions.CompProperties_Upgradable"]/costList/Steel</xpath>
+				</li>
+				<li Class="PatchOperationRemove" MayRequire="Mlie.XNDTurretExtensions">
+					<xpath>/Defs/ThingDef[defName = "PulsefireTwinCannon"]/comps/li[@Class="TurretExtensions.CompProperties_Upgradable"]/costList/Silver</xpath>
+				</li>
+				<li Class="PatchOperationRemove" MayRequire="Mlie.XNDTurretExtensions">
+					<xpath>/Defs/ThingDef[defName = "PulsefireTwinCannon"]/comps/li[@Class="TurretExtensions.CompProperties_Upgradable"]/costList/Steel</xpath>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>HakuyaNiji.FastMoisturePumps</packageId>
+	<name>自用调整</name>
+	<description>
+原版全DLC调整：
+1. 抽水泵5天抽水（原版60天）
+2. 控制子链工作效率+6% -> +50%
+3. 添加婴儿食物x20制作配方
+4. 整合批量制作（x20配方）
+5. 武器品质影响近战和远程武器冷却
+6. 所有设备不会故障（只对排在本mod前面的设备生效）
+7. 工作台体积一律减小为1x1
+
+Mod
+MendAndRecycle调整：
+1. 修补桌体积减小
+Pulsefire Turret (Continued)调整：
+1. 提升单脉冲炮塔伤害、穿甲，降低射击冷却
+2. 提升双脉冲炮塔伤害、穿甲，降低射击冷却
+3. 降低建造花费、升级花费（需要炮塔升级mod）
+</description>
+	<author>HakuyaNiji</author>
+	<loadAfter>
+		<li>dd.unofficial.notfood.MendAndRecycle</li>
+		<li>Mlie.PulsefireTurret</li>
+		<li>Mlie.XNDTurretExtensions</li>
+	</loadAfter>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+</ModMetaData>

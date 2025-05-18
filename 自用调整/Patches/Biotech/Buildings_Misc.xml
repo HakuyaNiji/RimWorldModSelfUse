@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "GeneBank"]/comps/li[@Class = "CompProperties_GenepackContainer"]/maxCapacity</xpath>
+		<value>
+			<maxCapacity>8</maxCapacity>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "GeneProcessor"]/statBases/GeneticComplexityIncrease</xpath>
+		<value>
+			<GeneticComplexityIncrease>8</GeneticComplexityIncrease>
+		</value>
+	</Operation>
+</Patch>
